@@ -1,0 +1,44 @@
+html, body{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.nav-tab{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    color:white;
+    list-style:none;
+    gap:20px;
+    justify-content:end;
+    padding: 30px;
+    margin:0;
+}
+
+.home-tab-image{
+    width:20%;
+   
+}
+
+.home-tab-content{
+    display: flex;
+    flex-direction: column;
+    max-width:70%;
+    align-items:center;
+    justify-content: center;
+
+}
+
+#home-tab-info{
+    color:chartreuse;
+}
+.home-tab-info{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:brown;
+}
